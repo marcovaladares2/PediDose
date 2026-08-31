@@ -174,7 +174,7 @@
         .card-sobre { position: relative; overflow: hidden; padding: 0; border: 1px solid var(--borda); border-radius: 24px; box-shadow: var(--sombra); background: linear-gradient(130deg, #fff 40%, #eff7f5); }
         .card-sobre::after { content: ""; position: absolute; z-index: 0; right: -11%; top: 0; width: 49%; height: 100%; pointer-events: none; background: radial-gradient(ellipse at 80% 22%, rgba(180,220,212,.55), transparent 62%); }
         .cabecalho-autor { position: relative; z-index: 1; min-height: 395px; display: flex; flex-direction: column; justify-content: center; text-align: left; margin: 0; padding: 62px 46% 55px 8%; border: 0; background: linear-gradient(90deg, rgba(255,255,255,.99) 0%, rgba(255,255,255,.95) 49%, rgba(255,255,255,.05) 100%); }
-        .avatar-placeholder { position: absolute; right: 0; bottom: 0; z-index: -1; width: 53%; height: 100%; margin: 0; border: 0; border-radius: 0; background: url('assets/dr-marco.png') right bottom / contain no-repeat; color: transparent; overflow: hidden; }
+        .avatar-placeholder { position: absolute; right: 0; bottom: 0; z-index: -1; width: 53%; height: 100%; margin: 0; border: 0; border-radius: 0; background: url(dr-marco.png') right bottom / contain no-repeat; color: transparent; overflow: hidden; }
         .avatar-placeholder::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #fff 0%, rgba(255,255,255,.45) 19%, transparent 55%), linear-gradient(0deg, #eff7f5 0%, transparent 26%); }
         .cabecalho-autor h1 { color: #1d4c43; font-size: clamp(2rem, 4vw, 3.2rem); }
         .cabecalho-autor p { color: #536763; line-height: 1.65; }
@@ -277,13 +277,13 @@
 <body>
 
     <header class="app-header no-print">
-        <div class="app-brand" onclick="mostrarHero()" title="Voltar à capa PediDose"><img class="brand-logo" src="assets/pedidose-logo.png" alt="PediDose"><p class="brand-caption">Precisão e Agilidade</p></div>
+        <div class="app-brand" onclick="mostrarHero()" title="Voltar à capa PediDose"><img class="brand-logo" src="pedidose-logo.png" alt="PediDose"><p class="brand-caption">Precisão e Agilidade</p></div>
     </header>
 
     <section id="heroInicial" class="hero-inicial no-print" aria-labelledby="heroTitulo">
         <div class="hero-mesh" aria-hidden="true"><span class="mesh-1"></span><span class="mesh-2"></span><span class="mesh-3"></span><span class="mesh-4"></span></div>
         <div class="hero-conteudo">
-            <div class="hero-marca"><img src="assets/pedidose-logo-transparent.png" alt="Logo PediDose"></div>
+            <div class="hero-marca"><img src="pedidose-logo-transparent.png" alt="Logo PediDose"></div>
             <h1 id="heroTitulo"><span>Precisão</span> e Agilidade</h1>
             <p>Sua ferramenta de suporte à decisão clínica pediátrica e cálculo de doses com agilidade e segurança no plantão.</p>
             <button class="hero-cta" onclick="abrirModuloInicial()">Acessar calculadoras</button>
